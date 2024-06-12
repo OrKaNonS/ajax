@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX jsonexer2</title>
+    <script src="js/jsonexer2.js"></script>
+    <style>
+    table { width: 1024px; }
+    table, th, td { border:1px solid #333; border-collapse:collapse;}
+    caption { font-size: 24px; font-weight: bold; }
+    thead {background-color: #eee;}
+    
+    
+    
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <p>
+            <input id="btn" type="button" value="JSON파일요청" />
+        </p>
+        <table>
+          <caption>PHOTOS</caption>
+          <thead>
+        	<tr>
+        	  <th>albumId</th>
+        	  <th>id</th>
+        	  <th>title</th>
+        	  <th>url</th>
+        	  <th>thumbnailUrl</th> 
+        	</tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+        <p>
+            <span id="result"></span>
+        </p>
+    </div>    
+</body>
+</html>
